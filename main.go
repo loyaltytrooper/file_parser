@@ -1,16 +1,21 @@
 package main
 
 import (
+	"bufio"
 	"file_parser/models"
 	"fmt"
 	"github.com/ledongthuc/pdf"
+	"github.com/pdfcpu/pdfcpu/pkg/api"
+	"github.com/pdfcpu/pdfcpu/pkg/pdfcpu/model"
+	"log"
+	"os"
 	"strconv"
 	"strings"
 	"time"
 )
 
 func main() {
-	str, err := readPdf("./Jan.pdf")
+	str, err := readPdf("feb.pdf")
 	if err != nil {
 		fmt.Println(err)
 	}
@@ -129,4 +134,31 @@ func BeautifyCommaNumber(str string) (float64, error) {
 		txn += str
 	}
 	return strconv.ParseFloat(txn, 64)
+}
+
+func ParsePDF(fileName string) {
+	os.Mkdir("act_"+fileName[0:len(fileName)-4], 0777)
+	err := api.ExtractContentFile(fileName, "act_"+fileName[0:len(fileName)-4], nil, model.NewAESConfiguration("RAJA2712", "RAJA2712", 128))
+	if err != nil {
+		fmt.Println(err.Error())
+	}
+}
+
+func readFile(file string, openingBalanceFound *bool, transactions *models.Transactions) (closingFound bool) {
+	f, err := os.Open(file)
+
+	if err != nil {
+		log.Fatal(err)
+	}
+
+	defer f.Close()
+
+	scanner := bufio.NewScanner(f)
+	for scanner.Scan() {
+		fmt.Println(scanner.Text())
+	}
+
+	if err := scanner.Err(); err != nil {
+		log.Fatal(err)
+	}
 }
