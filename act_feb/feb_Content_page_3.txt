@@ -1,0 +1,3009 @@
+/GS1 gs
+0 g
+0 G
+0 g
+/GS1 gs
+1 0 0 1 0 840 cm
+q
+q
+q
+q
+0 0 595 -840 re
+W*
+n
+Q
+q
+0 0 595 -840 re
+W*
+n
+27.25 -70.25 537.75 -10.75 re
+W*
+n
+27.25 -70.25 537.75 -10.75 re
+W*
+n
+BT
+/F6 8 Tf
+-0.111 Tc
+239.625 -78.25 Td
+(Legends used in the Statement) Tj
+ET
+Q
+q
+27 -70 537 -10 re
+W*
+n
+Q
+q
+0 0 595 -840 re
+W*
+n
+27.25 -81.25 74.75 -18.75 re
+W*
+n
+BT
+/F4 7 Tf
+-0.25 Tc
+31.25 -93.125 Td
+(ICONN) Tj
+ET
+Q
+q
+0 0 595 -840 re
+W*
+n
+102.25 -81.25 201.75 -18.75 re
+W*
+n
+BT
+/F4 7 Tf
+0.22 Tc
+106.25 -88.625 Td
+(Transaction through Iconnect PUR Purchase using the) Tj
+0.333 Tc
+0 -9 TD
+(debit card) Tj
+ET
+Q
+q
+0 0 595 -840 re
+W*
+n
+304.25 -81.25 69.75 -18.75 re
+W*
+n
+BT
+/F4 7 Tf
+-1 Tc
+308.25 -93.125 Td
+(PUR) Tj
+ET
+Q
+q
+0 0 595 -840 re
+W*
+n
+374.25 -81.25 190.75 -18.75 re
+W*
+n
+BT
+/F4 7 Tf
+0.25 Tc
+378.25 -93.125 Td
+(Purchase using the debit card) Tj
+ET
+Q
+q
+0 0 595 -840 re
+W*
+n
+27.25 -100.25 74.75 -9.75 re
+W*
+n
+BT
+/F4 7 Tf
+-0.444 Tc
+31.25 -107.625 Td
+(AUTO SWEEP) Tj
+ET
+Q
+q
+0 0 595 -840 re
+W*
+n
+102.25 -100.25 201.75 -9.75 re
+W*
+n
+BT
+/F4 7 Tf
+0.25 Tc
+106.25 -107.625 Td
+(Transfer to linked Fixed Deposit RATE) Tj
+ET
+Q
+q
+0 0 595 -840 re
+W*
+n
+304.25 -100.25 69.75 -9.75 re
+W*
+n
+BT
+/F4 7 Tf
+-0.25 Tc
+308.25 -107.625 Td
+(RATE.DIFF) Tj
+ET
+Q
+q
+0 0 595 -840 re
+W*
+n
+374.25 -100.25 190.75 -9.75 re
+W*
+n
+BT
+/F4 7 Tf
+0.333 Tc
+378.25 -107.625 Td
+(Difference in rates on usage of card internationally) Tj
+ET
+Q
+q
+0 0 595 -840 re
+W*
+n
+27.25 -110.25 74.75 -9.75 re
+W*
+n
+BT
+/F4 7 Tf
+-0.625 Tc
+31.25 -117.625 Td
+(REV SWEEP) Tj
+ET
+Q
+q
+0 0 595 -840 re
+W*
+n
+102.25 -110.25 201.75 -9.75 re
+W*
+n
+BT
+/F4 7 Tf
+0.29 Tc
+106.25 -117.625 Td
+(Interest on linked Fixed Deposit) Tj
+ET
+Q
+q
+0 0 595 -840 re
+W*
+n
+304.25 -110.25 69.75 -9.75 re
+W*
+n
+BT
+/F4 7 Tf
+-0.5 Tc
+308.25 -117.625 Td
+(CLG) Tj
+ET
+Q
+q
+0 0 595 -840 re
+W*
+n
+374.25 -110.25 190.75 -9.75 re
+W*
+n
+BT
+/F4 7 Tf
+0.269 Tc
+378.25 -117.625 Td
+(Cheque Clearing transaction) Tj
+ET
+Q
+q
+0 0 595 -840 re
+W*
+n
+27.25 -120.25 74.75 -9.75 re
+W*
+n
+BT
+/F4 7 Tf
+-0.625 Tc
+31.25 -127.625 Td
+(SWEEP TRF) Tj
+ET
+Q
+q
+0 0 595 -840 re
+W*
+n
+102.25 -120.25 201.75 -9.75 re
+W*
+n
+BT
+/F4 7 Tf
+0.395 Tc
+106.25 -127.625 Td
+(Transfer from linked Fixed deposit / Account) Tj
+ET
+Q
+q
+0 0 595 -840 re
+W*
+n
+304.25 -120.25 69.75 -9.75 re
+W*
+n
+BT
+/F4 7 Tf
+-0.5 Tc
+308.25 -127.625 Td
+(EDC) Tj
+ET
+Q
+q
+0 0 595 -840 re
+W*
+n
+374.25 -120.25 190.75 -9.75 re
+W*
+n
+BT
+/F4 7 Tf
+0.297 Tc
+378.25 -127.625 Td
+(Credit through EDC machine transaction) Tj
+ET
+Q
+q
+0 0 595 -840 re
+W*
+n
+27.25 -130.25 74.75 -9.75 re
+W*
+n
+BT
+/F4 7 Tf
+31.25 -137.625 Td
+(VMT) Tj
+ET
+Q
+q
+0 0 595 -840 re
+W*
+n
+102.25 -130.25 201.75 -9.75 re
+W*
+n
+BT
+/F4 7 Tf
+0.366 Tc
+106.25 -137.625 Td
+(Visa money transfer through ATM) Tj
+ET
+Q
+q
+0 0 595 -840 re
+W*
+n
+304.25 -130.25 69.75 -9.75 re
+W*
+n
+BT
+/F4 7 Tf
+-0.666 Tc
+308.25 -137.625 Td
+(SETU) Tj
+ET
+Q
+q
+0 0 595 -840 re
+W*
+n
+374.25 -130.25 190.75 -9.75 re
+W*
+n
+BT
+/F4 7 Tf
+0.32 Tc
+378.25 -137.625 Td
+(Seamless electronic fund transfer through Axis Bank) Tj
+ET
+Q
+q
+0 0 595 -840 re
+W*
+n
+27.25 -140.25 74.75 -9.75 re
+W*
+n
+BT
+/F4 7 Tf
+-0.666 Tc
+31.25 -147.625 Td
+(CWDR) Tj
+ET
+Q
+q
+0 0 595 -840 re
+W*
+n
+102.25 -140.25 201.75 -9.75 re
+W*
+n
+BT
+/F4 7 Tf
+0.269 Tc
+106.25 -147.625 Td
+(Cash withdrawal through ATM) Tj
+ET
+Q
+q
+0 0 595 -840 re
+W*
+n
+304.25 -140.25 69.75 -9.75 re
+W*
+n
+BT
+/F4 7 Tf
+0.142 Tc
+308.25 -147.625 Td
+(Int. Pd.) Tj
+ET
+Q
+q
+0 0 595 -840 re
+W*
+n
+374.25 -140.25 190.75 -9.75 re
+W*
+n
+BT
+/F4 7 Tf
+0.375 Tc
+378.25 -147.625 Td
+(Interest paid to customer) Tj
+ET
+Q
+q
+0 0 595 -840 re
+W*
+n
+27.25 -150.25 74.75 -18.75 re
+W*
+n
+BT
+/F4 7 Tf
+-0.166 Tc
+31.25 -162.125 Td
+(TIP/SCG) Tj
+ET
+Q
+q
+0 0 595 -840 re
+W*
+n
+102.25 -150.25 201.75 -18.75 re
+W*
+n
+BT
+/F4 7 Tf
+0.309 Tc
+106.25 -157.625 Td
+(Surcharge on usage of debit card at petrol pumps/railway) Tj
+0.392 Tc
+0 -9 TD
+(ticket purchase or hotel tips) Tj
+ET
+Q
+q
+0 0 595 -840 re
+W*
+n
+304.25 -150.25 69.75 -18.75 re
+W*
+n
+BT
+/F4 7 Tf
+0.222 Tc
+308.25 -162.125 Td
+(Int. Coll.) Tj
+ET
+Q
+q
+0 0 595 -840 re
+W*
+n
+374.25 -150.25 190.75 -18.75 re
+W*
+n
+BT
+/F4 7 Tf
+0.428 Tc
+378.25 -162.125 Td
+(Interest collected from the customer) Tj
+ET
+Q
+q
+0 0 595 -840 re
+W*
+n
+27.25 -169.25 74.75 -9.75 re
+W*
+n
+BT
+/F4 7 Tf
+-1 Tc
+31.25 -176.625 Td
+(BRN) Tj
+ET
+Q
+q
+0 0 595 -840 re
+W*
+n
+102.25 -169.25 201.75 -9.75 re
+W*
+n
+BT
+/F4 7 Tf
+106.25 -176.625 Td
+(Branch) Tj
+ET
+Q
+q
+0 0 595 -840 re
+W*
+n
+304.25 -169.25 69.75 -9.75 re
+W*
+n
+BT
+/F4 7 Tf
+308.25 -176.625 Td
+(MMT) Tj
+ET
+Q
+q
+0 0 595 -840 re
+W*
+n
+374.25 -169.25 190.75 -9.75 re
+W*
+n
+BT
+/F4 7 Tf
+0.361 Tc
+378.25 -176.625 Td
+(MasterCard money transfer through ATM) Tj
+ET
+Q
+q
+0 0 595 -840 re
+W*
+n
+27.25 -179.25 74.75 -9.75 re
+W*
+n
+BT
+/F4 7 Tf
+-1 Tc
+31.25 -186.625 Td
+(TD) Tj
+ET
+Q
+q
+0 0 595 -840 re
+W*
+n
+102.25 -179.25 201.75 -9.75 re
+W*
+n
+BT
+/F4 7 Tf
+0.363 Tc
+106.25 -186.625 Td
+(Term Deposit) Tj
+ET
+Q
+q
+0 0 595 -840 re
+W*
+n
+304.25 -179.25 69.75 -9.75 re
+W*
+n
+BT
+/F4 7 Tf
+-0.5 Tc
+308.25 -186.625 Td
+(INT) Tj
+ET
+Q
+q
+0 0 595 -840 re
+W*
+n
+374.25 -179.25 190.75 -9.75 re
+W*
+n
+BT
+/F4 7 Tf
+0.428 Tc
+378.25 -186.625 Td
+(Interest) Tj
+ET
+Q
+q
+0 0 595 -840 re
+W*
+n
+27.25 -189.25 74.75 -9.75 re
+W*
+n
+BT
+/F4 7 Tf
+-1 Tc
+31.25 -196.625 Td
+(SI) Tj
+ET
+Q
+q
+0 0 595 -840 re
+W*
+n
+102.25 -189.25 201.75 -9.75 re
+W*
+n
+BT
+/F4 7 Tf
+0.3 Tc
+106.25 -196.625 Td
+(Standing Instructions) Tj
+ET
+Q
+q
+0 0 595 -840 re
+W*
+n
+304.25 -189.25 69.75 -9.75 re
+W*
+n
+BT
+/F4 7 Tf
+-0.5 Tc
+308.25 -196.625 Td
+(INB) Tj
+ET
+Q
+q
+0 0 595 -840 re
+W*
+n
+374.25 -189.25 190.75 -9.75 re
+W*
+n
+BT
+/F4 7 Tf
+0.2 Tc
+378.25 -196.625 Td
+(Internet Banking) Tj
+ET
+Q
+q
+0 0 595 -840 re
+W*
+n
+0.25 w
+27 -70.125 m
+102 -70.125 l
+S
+102 -70.125 m
+304 -70.125 l
+S
+304 -70.125 m
+374 -70.125 l
+S
+374 -70.125 m
+565 -70.125 l
+S
+565 -70.125 m
+565.125 -70.125 l
+S
+27.125 -70 m
+27.125 -81 l
+S
+27.25 -81.125 m
+102 -81.125 l
+S
+102 -81.125 m
+304 -81.125 l
+S
+304 -81.125 m
+374 -81.125 l
+S
+565.125 -70 m
+565.125 -81.125 l
+S
+374 -81.125 m
+565 -81.125 l
+S
+27.125 -81 m
+27.125 -100 l
+S
+102.125 -81.25 m
+102.125 -100.125 l
+S
+27.25 -100.125 m
+102 -100.125 l
+S
+304.125 -81.25 m
+304.125 -100.125 l
+S
+102.25 -100.125 m
+304 -100.125 l
+S
+374.125 -81.25 m
+374.125 -100.125 l
+S
+304.25 -100.125 m
+374 -100.125 l
+S
+565.125 -81 m
+565.125 -100.125 l
+S
+374.25 -100.125 m
+565 -100.125 l
+S
+27.125 -100 m
+27.125 -110 l
+S
+102.125 -100.25 m
+102.125 -110.125 l
+S
+27.25 -110.125 m
+102 -110.125 l
+S
+304.125 -100.25 m
+304.125 -110.125 l
+S
+102.25 -110.125 m
+304 -110.125 l
+S
+374.125 -100.25 m
+374.125 -110.125 l
+S
+304.25 -110.125 m
+374 -110.125 l
+S
+565.125 -100 m
+565.125 -110.125 l
+S
+374.25 -110.125 m
+565 -110.125 l
+S
+27.125 -110 m
+27.125 -120 l
+S
+102.125 -110.25 m
+102.125 -120.125 l
+S
+27.25 -120.125 m
+102 -120.125 l
+S
+304.125 -110.25 m
+304.125 -120.125 l
+S
+102.25 -120.125 m
+304 -120.125 l
+S
+374.125 -110.25 m
+374.125 -120.125 l
+S
+304.25 -120.125 m
+374 -120.125 l
+S
+565.125 -110 m
+565.125 -120.125 l
+S
+374.25 -120.125 m
+565 -120.125 l
+S
+27.125 -120 m
+27.125 -130 l
+S
+102.125 -120.25 m
+102.125 -130.125 l
+S
+27.25 -130.125 m
+102 -130.125 l
+S
+304.125 -120.25 m
+304.125 -130.125 l
+S
+102.25 -130.125 m
+304 -130.125 l
+S
+374.125 -120.25 m
+374.125 -130.125 l
+S
+304.25 -130.125 m
+374 -130.125 l
+S
+565.125 -120 m
+565.125 -130.125 l
+S
+374.25 -130.125 m
+565 -130.125 l
+S
+27.125 -130 m
+27.125 -140 l
+S
+102.125 -130.25 m
+102.125 -140.125 l
+S
+27.25 -140.125 m
+102 -140.125 l
+S
+304.125 -130.25 m
+304.125 -140.125 l
+S
+102.25 -140.125 m
+304 -140.125 l
+S
+374.125 -130.25 m
+374.125 -140.125 l
+S
+304.25 -140.125 m
+374 -140.125 l
+S
+565.125 -130 m
+565.125 -140.125 l
+S
+374.25 -140.125 m
+565 -140.125 l
+S
+27.125 -140 m
+27.125 -150 l
+S
+102.125 -140.25 m
+102.125 -150.125 l
+S
+27.25 -150.125 m
+102 -150.125 l
+S
+304.125 -140.25 m
+304.125 -150.125 l
+S
+102.25 -150.125 m
+304 -150.125 l
+S
+374.125 -140.25 m
+374.125 -150.125 l
+S
+304.25 -150.125 m
+374 -150.125 l
+S
+565.125 -140 m
+565.125 -150.125 l
+S
+374.25 -150.125 m
+565 -150.125 l
+S
+27.125 -150 m
+27.125 -169 l
+S
+102.125 -150.25 m
+102.125 -169.125 l
+S
+27.25 -169.125 m
+102 -169.125 l
+S
+304.125 -150.25 m
+304.125 -169.125 l
+S
+102.25 -169.125 m
+304 -169.125 l
+S
+374.125 -150.25 m
+374.125 -169.125 l
+S
+304.25 -169.125 m
+374 -169.125 l
+S
+565.125 -150 m
+565.125 -169.125 l
+S
+374.25 -169.125 m
+565 -169.125 l
+S
+27.125 -169 m
+27.125 -179 l
+S
+102.125 -169.25 m
+102.125 -179.125 l
+S
+27.25 -179.125 m
+102 -179.125 l
+S
+304.125 -169.25 m
+304.125 -179.125 l
+S
+102.25 -179.125 m
+304 -179.125 l
+S
+374.125 -169.25 m
+374.125 -179.125 l
+S
+304.25 -179.125 m
+374 -179.125 l
+S
+565.125 -169 m
+565.125 -179.125 l
+S
+374.25 -179.125 m
+565 -179.125 l
+S
+27.125 -179 m
+27.125 -189 l
+S
+102.125 -179.25 m
+102.125 -189.125 l
+S
+27.25 -189.125 m
+102 -189.125 l
+S
+304.125 -179.25 m
+304.125 -189.125 l
+S
+102.25 -189.125 m
+304 -189.125 l
+S
+374.125 -179.25 m
+374.125 -189.125 l
+S
+304.25 -189.125 m
+374 -189.125 l
+S
+565.125 -179 m
+565.125 -189.125 l
+S
+374.25 -189.125 m
+565 -189.125 l
+S
+27.125 -189 m
+27.125 -199 l
+S
+27.125 -199 m
+27.125 -199.125 l
+S
+102.125 -189.25 m
+102.125 -199.125 l
+S
+27 -199.125 m
+102 -199.125 l
+S
+304.125 -189.25 m
+304.125 -199.125 l
+S
+102 -199.125 m
+304 -199.125 l
+S
+374.125 -189.25 m
+374.125 -199.125 l
+S
+304 -199.125 m
+374 -199.125 l
+S
+565.125 -189 m
+565.125 -199.125 l
+S
+374 -199.125 m
+565 -199.125 l
+S
+565.125 -199 m
+565.125 -199.125 l
+S
+565 -199.125 m
+565.125 -199.125 l
+S
+/GS1 gs
+0.635 0.011 0.301 rg
+0.635 0.011 0.301 RG
+1 w
+BT
+/F3 11 Tf
+0.142 Tc
+26 -218 Td
+(Note) Tj
+ET
+26 -224 548 -63 re
+W*
+n
+/GS1 gs
+0 g
+0 G
+27 -224 546 -63 re
+W*
+n
+BT
+/F3 7 Tf
+0 Tc
+27 -231 Td
+(I) Tj
+-0.371 Tc
+4.419 0 Td
+(am) Tj
+0.282 Tc
+10.419 0 Td
+(being) Tj
+0.008 Tc
+18.42 0 Td
+(customer) Tj
+0.393 Tc
+29.419 0 Td
+(of) Tj
+-0.092 Tc
+8.419 0 Td
+(the) Tj
+0.076 Tc
+11.42 0 Td
+(Bank) Tj
+0.406 Tc
+16.419 0 Td
+(fully) Tj
+-0.028 Tc
+15.419 0 Td
+(aware) Tj
+0.08 Tc
+19.42 0 Td
+(that,) Tj
+0 Tc
+15.419 0 Td
+(I) Tj
+-0.371 Tc
+4.419 0 Td
+(am) Tj
+0.238 Tc
+10.42 0 Td
+(required) Tj
+-0.188 Tc
+28.419 0 Td
+(to) Tj
+0.228 Tc
+8.419 0 Td
+(provide) Tj
+-0.031 Tc
+25.42 0 Td
+(correct) Tj
+0.26 Tc
+23.419 0 Td
+(personal) Tj
+0.169 Tc
+28.42 0 Td
+(details) Tj
+0.297 Tc
+21.419 0 Td
+(viz;) Tj
+-0.305 Tc
+12.419 0 Td
+(Date) Tj
+0.393 Tc
+15.42 0 Td
+(of) Tj
+0.234 Tc
+8.419 0 Td
+(Birth) Tj
+0.005 Tc
+17.419 0 Td
+<28> Tj
+/F5 7 Tf
+<0A> Tj
+/F3 7 Tf
+(DOB) Tj
+/F5 7 Tf
+<0B> Tj
+/F3 7 Tf
+(\),) Tj
+0.179 Tc
+29.42 0 Td
+(constitution) Tj
+0.056 Tc
+38.419 0 Td
+(code) Tj
+0.322 Tc
+16.419 0 Td
+(\(Individual) Tj
+0.377 Tc
+34.42 0 Td
+(or) Tj
+0.007 Tc
+9.419 0 Td
+(HUF\),) Tj
+-0.115 Tc
+19.419 0 Td
+(etc;) Tj
+-0.188 Tc
+12.42 0 Td
+(to) Tj
+0.227 Tc
+8.419 0 Td
+(avail) Tj
+-0.092 Tc
+15.42 0 Td
+(the) Tj
+0.113 Tc
+-537 -9 Td
+(benefit) Tj
+0.393 Tc
+22.172 0 Td
+(of) Tj
+-0.092 Tc
+8.172 0 Td
+(the) Tj
+0.104 Tc
+11.173 0 Td
+(preferred) Tj
+-0.298 Tc
+30.172 0 Td
+(Rate) Tj
+0.393 Tc
+14.173 0 Td
+(of) Tj
+-0.01 Tc
+8.172 0 Td
+(Interest) Tj
+-0.037 Tc
+24.172 0 Td
+<28> Tj
+/F5 7 Tf
+<0A> Tj
+/F3 7 Tf
+(ROI) Tj
+/F5 7 Tf
+<0B> Tj
+/F3 7 Tf
+<29> Tj
+-0.143 Tc
+24.173 0 Td
+(rate) Tj
+0.329 Tc
+13.172 0 Td
+(as) Tj
+0.411 Tc
+8.173 0 Td
+(individual) Tj
+0.157 Tc
+32.172 0 Td
+(Senior) Tj
+0.17 Tc
+21.172 0 Td
+(Citizen) Tj
+/F5 7 Tf
+<0B> Tj
+/F3 7 Tf
+(.) Tj
+0.233 Tc
+28.173 0 Td
+(But,) Tj
+0.717 Tc
+14.172 0 Td
+(if) Tj
+-0.045 Tc
+6.173 0 Td
+(after) Tj
+0.088 Tc
+15.172 0 Td
+(creation) Tj
+0.393 Tc
+26.173 0 Td
+(of) Tj
+0.411 Tc
+8.172 0 Td
+(said) Tj
+-0.032 Tc
+14.172 0 Td
+(FD,) Tj
+0 Tc
+12.173 0 Td
+(I) Tj
+0.124 Tc
+4.172 0 Td
+(change) Tj
+0.377 Tc
+22.173 0 Td
+(or) Tj
+0.154 Tc
+9.172 0 Td
+(update) Tj
+-0.449 Tc
+22.172 0 Td
+(my) Tj
+0.043 Tc
+10.173 0 Td
+(above-mentioned) Tj
+0.26 Tc
+52.172 0 Td
+(personal) Tj
+0.169 Tc
+28.173 0 Td
+(details) Tj
+0.402 Tc
+21.172 0 Td
+(basis) Tj
+0.343 Tc
+17.173 0 Td
+(which) Tj
+-0.092 Tc
+-528 -9 Td
+(the) Tj
+0.076 Tc
+11 0 Td
+(Bank) Tj
+0.249 Tc
+16 0 Td
+(considers) Tj
+-0.048 Tc
+31 0 Td
+(that) Tj
+0 Tc
+13 0 Td
+(I) Tj
+-0.371 Tc
+4 0 Td
+(am) Tj
+0.294 Tc
+10 0 Td
+(ineligible) Tj
+-0.188 Tc
+29 0 Td
+(to) Tj
+0.227 Tc
+8 0 Td
+(avail) Tj
+0.113 Tc
+15 0 Td
+(benefit) Tj
+0.393 Tc
+22 0 Td
+(of) Tj
+0.104 Tc
+8 0 Td
+(preferred) Tj
+0.13 Tc
+30 0 Td
+(ROI) Tj
+0.034 Tc
+14 0 Td
+(\(as) Tj
+0.192 Tc
+10 0 Td
+(available) Tj
+-0.188 Tc
+27 0 Td
+(to) Tj
+0.411 Tc
+8 0 Td
+(individual) Tj
+0.157 Tc
+32 0 Td
+(Senior) Tj
+0.135 Tc
+21 0 Td
+(Citizen\),) Tj
+0.8 Tc
+27 0 Td
+(in) Tj
+-0.048 Tc
+8 0 Td
+(that) Tj
+-0.027 Tc
+13 0 Td
+(case) Tj
+-0.092 Tc
+14 0 Td
+(the) Tj
+0.076 Tc
+11 0 Td
+(Bank) Tj
+0.44 Tc
+16 0 Td
+(shall) Tj
+0.035 Tc
+16 0 Td
+(have) Tj
+0.222 Tc
+15 0 Td
+(right) Tj
+-0.188 Tc
+16 0 Td
+(to) Tj
+0.169 Tc
+8 0 Td
+(modify) Tj
+-0.092 Tc
+22 0 Td
+(the) Tj
+0.13 Tc
+11 0 Td
+(ROI) Tj
+-0.313 Tc
+14 0 Td
+(at) Tj
+0.223 Tc
+7 0 Td
+(its) Tj
+0.202 Tc
+9 0 Td
+(discretion) Tj
+0.157 Tc
+-516 -9 Td
+(without any prior notice or intimation.) Tj
+0.105 Tc
+0 -18 TD
+(Please) Tj
+0.106 Tc
+20.375 0 Td
+(note,) Tj
+-0.092 Tc
+17.375 0 Td
+(the) Tj
+0.008 Tc
+11.375 0 Td
+(customer) Tj
+0.44 Tc
+29.375 0 Td
+(shall) Tj
+0.228 Tc
+16.375 0 Td
+(provide) Tj
+0.639 Tc
+25.375 0 Td
+(his) Tj
+-0.031 Tc
+11.375 0 Td
+(correct) Tj
+0.26 Tc
+23.375 0 Td
+(personal) Tj
+0.169 Tc
+28.375 0 Td
+(details) Tj
+0.35 Tc
+21.375 0 Td
+(only) Tj
+-0.313 Tc
+15.375 0 Td
+(at) Tj
+-0.092 Tc
+7.375 0 Td
+(the) Tj
+-0.202 Tc
+11.375 0 Td
+(time) Tj
+0.393 Tc
+14.375 0 Td
+(of) Tj
+0.088 Tc
+8.375 0 Td
+(creation) Tj
+0.393 Tc
+26.375 0 Td
+(of) Tj
+-0.092 Tc
+8.375 0 Td
+(the) Tj
+-0.005 Tc
+11.375 0 Td
+(TD.) Tj
+0.42 Tc
+13.375 0 Td
+(Also) Tj
+-0.013 Tc
+16.375 0 Td
+(note) Tj
+-0.048 Tc
+15.375 0 Td
+(that) Tj
+-0.092 Tc
+13.375 0 Td
+(the) Tj
+-0.298 Tc
+11.375 0 Td
+(Rate) Tj
+0.393 Tc
+14.375 0 Td
+(of) Tj
+-0.01 Tc
+8.375 0 Td
+(Interest) Tj
+0.208 Tc
+24.375 0 Td
+(modified) Tj
+0.456 Tc
+28.375 0 Td
+(will) Tj
+0.146 Tc
+13.375 0 Td
+(be) Tj
+0.28 Tc
+9.375 0 Td
+(applicable) Tj
+0.079 Tc
+32.375 0 Td
+(from) Tj
+-0.092 Tc
+16.375 0 Td
+(the) Tj
+0.155 Tc
+11.375 0 Td
+(last) Tj
+0.058 Tc
+-536 -9 Td
+(open effective date of the Fixed Deposit.      ) Tj
+ET
+Q
+q
+26 -224 548 -63 re
+W*
+n
+Q
+q
+0 0 595 -840 re
+W*
+n
+/GS1 gs
+0.635 0.011 0.301 rg
+0.635 0.011 0.301 RG
+BT
+/F3 11 Tf
+-0.253 Tc
+26 -303 Td
+(Disclaimer) Tj
+ET
+26 -309 548 -117 re
+W*
+n
+/GS1 gs
+0 g
+0 G
+27 -309 546 -117 re
+W*
+n
+BT
+/F3 7 Tf
+-0.04 Tc
+27 -316 Td
+(The) Tj
+0 Tc
+13.629 0 Td
+(a/c) Tj
+0.181 Tc
+10.63 0 Td
+(balance) Tj
+0.456 Tc
+24.629 0 Td
+(will) Tj
+0.146 Tc
+13.63 0 Td
+(be) Tj
+-0.129 Tc
+9.63 0 Td
+(taken) Tj
+0.329 Tc
+17.629 0 Td
+(as) Tj
+-0.031 Tc
+8.63 0 Td
+(correct) Tj
+0.347 Tc
+23.63 0 Td
+(unless) Tj
+0.229 Tc
+21.629 0 Td
+(any) Tj
+0.193 Tc
+12.63 0 Td
+(discrepancy) Tj
+0.778 Tc
+37.629 0 Td
+(is) Tj
+0.225 Tc
+7.63 0 Td
+(notified) Tj
+-0.188 Tc
+25.63 0 Td
+(to) Tj
+0.8 Tc
+8.629 0 Td
+(us) Tj
+0.026 Tc
+9.63 0 Td
+(immediately.The) Tj
+0.307 Tc
+49.63 0 Td
+(closing) Tj
+0.181 Tc
+23.629 0 Td
+(balance) Tj
+0.324 Tc
+24.63 0 Td
+(includes) Tj
+0.099 Tc
+27.629 0 Td
+(Credit) Tj
+0.181 Tc
+21.63 0 Td
+(balance) Tj
+0.014 Tc
+24.63 0 Td
+(&/or) Tj
+0.071 Tc
+15.629 0 Td
+(overdraft) Tj
+0.477 Tc
+29.63 0 Td
+(and) Tj
+0.499 Tc
+13.63 0 Td
+(funds) Tj
+0.343 Tc
+19.629 0 Td
+(which) Tj
+-0.05 Tc
+20.63 0 Td
+(are) Tj
+0.329 Tc
+11.63 0 Td
+(under) Tj
+0.22 Tc
+-528 -9 Td
+(clearing.) Tj
+-0.08 Tc
+27.4 0 Td
+(It) Tj
+0.207 Tc
+6.399 0 Td
+(excludes) Tj
+-0.092 Tc
+28.4 0 Td
+(the) Tj
+0.088 Tc
+11.4 0 Td
+(amount) Tj
+-0.081 Tc
+24.401 0 Td
+(marked) Tj
+0.329 Tc
+23.399 0 Td
+(as) Tj
+0.387 Tc
+8.401 0 Td
+(lien,) Tj
+0.717 Tc
+15.399 0 Td
+(if) Tj
+0.308 Tc
+6.401 0 Td
+(any.) Tj
+0.077 Tc
+14.4 0 Td
+(\(A) Tj
+0.154 Tc
+9.399 0 Td
+(legal) Tj
+0.125 Tc
+15.401 0 Td
+(claim) Tj
+0.167 Tc
+17.399 0 Td
+(against) Tj
+0.518 Tc
+22.401 0 Td
+(an) Tj
+-0.01 Tc
+9.4 0 Td
+(asset) Tj
+0.343 Tc
+16.399 0 Td
+(which) Tj
+0.778 Tc
+20.4 0 Td
+(is) Tj
+0.298 Tc
+7.401 0 Td
+(used) Tj
+-0.188 Tc
+16.4 0 Td
+(to) Tj
+0.056 Tc
+8.4 0 Td
+(secure) Tj
+0 Tc
+21.399 0 Td
+(a) Tj
+0.376 Tc
+5.4 0 Td
+(loan) Tj
+0.477 Tc
+15.401 0 Td
+(and) Tj
+0.343 Tc
+13.4 0 Td
+(which) Tj
+0.03 Tc
+20.4 0 Td
+(must) Tj
+0.146 Tc
+16.399 0 Td
+(be) Tj
+0.473 Tc
+9.4 0 Td
+(paid) Tj
+0.204 Tc
+15.401 0 Td
+(when) Tj
+-0.092 Tc
+18.4 0 Td
+(the) Tj
+0.124 Tc
+11.4 0 Td
+(property) Tj
+0.778 Tc
+28.399 0 Td
+(is) Tj
+0.456 Tc
+7.4 0 Td
+(sold.) Tj
+0.124 Tc
+17.401 0 Td
+(Liens) Tj
+0.229 Tc
+17.399 0 Td
+(can) Tj
+0.146 Tc
+12.401 0 Td
+(be) Tj
+0.127 Tc
+-539 -9 Td
+(structured) Tj
+0.8 Tc
+33.392 0 Td
+(in) Tj
+0.023 Tc
+8.393 0 Td
+(many) Tj
+0.137 Tc
+17.393 0 Td
+(different) Tj
+0.151 Tc
+27.393 0 Td
+(ways.\).) Tj
+0.018 Tc
+22.393 0 Td
+('Value) Tj
+-0.134 Tc
+19.393 0 Td
+(date') Tj
+0.778 Tc
+15.393 0 Td
+(is) Tj
+-0.092 Tc
+7.392 0 Td
+(the) Tj
+-0.067 Tc
+11.393 0 Td
+(effective) Tj
+-0.076 Tc
+25.393 0 Td
+(date) Tj
+0.393 Tc
+14.393 0 Td
+(of) Tj
+0.051 Tc
+8.393 0 Td
+(Credit/Debit) Tj
+0.8 Tc
+39.393 0 Td
+(in) Tj
+-0.092 Tc
+8.393 0 Td
+(the) Tj
+0.168 Tc
+11.392 0 Td
+(account.) Tj
+0.538 Tc
+27.393 0 Td
+(Axis) Tj
+0.076 Tc
+16.393 0 Td
+(Bank) Tj
+0.179 Tc
+16.393 0 Td
+(does) Tj
+0.156 Tc
+16.393 0 Td
+(not) Tj
+0.298 Tc
+12.393 0 Td
+(send) Tj
+0.117 Tc
+16.393 0 Td
+(requests) Tj
+0.314 Tc
+27.392 0 Td
+(for) Tj
+0.259 Tc
+11.393 0 Td
+(IDs,) Tj
+0.293 Tc
+14.393 0 Td
+(Passwords,) Tj
+0.118 Tc
+36.393 0 Td
+(account) Tj
+0.252 Tc
+25.393 0 Td
+(numbers,) Tj
+0.377 Tc
+30.393 0 Td
+(or) Tj
+0.048 Tc
+9.393 0 Td
+(other) Tj
+0.12 Tc
+-530 -9 Td
+(sensitive) Tj
+0.328 Tc
+27.774 0 Td
+(financial) Tj
+0.2 Tc
+27.774 0 Td
+(information) Tj
+0.44 Tc
+37.774 0 Td
+(by) Tj
+-0.041 Tc
+9.774 0 Td
+(e-mail/SMS.) Tj
+0.5 Tc
+34.774 0 Td
+(If) Tj
+0.291 Tc
+6.775 0 Td
+(you) Tj
+-0.079 Tc
+13.774 0 Td
+(receive) Tj
+0 Tc
+22.774 0 Td
+(a) Tj
+-0.072 Tc
+5.774 0 Td
+(message) Tj
+0.393 Tc
+25.774 0 Td
+(of) Tj
+0.315 Tc
+8.775 0 Td
+(this) Tj
+-0.081 Tc
+13.774 0 Td
+(type) Tj
+-0.048 Tc
+14.774 0 Td
+(that) Tj
+0.204 Tc
+13.774 0 Td
+(appears) Tj
+-0.188 Tc
+25.774 0 Td
+(to) Tj
+0.146 Tc
+8.775 0 Td
+(be) Tj
+0.079 Tc
+9.774 0 Td
+(from) Tj
+0.538 Tc
+16.774 0 Td
+(Axis) Tj
+0.076 Tc
+16.774 0 Td
+(Bank) Tj
+0.377 Tc
+16.774 0 Td
+(or) Tj
+0.02 Tc
+9.775 0 Td
+(related) Tj
+-0.188 Tc
+22.774 0 Td
+(to) Tj
+0.518 Tc
+8.774 0 Td
+(an) Tj
+0.538 Tc
+9.774 0 Td
+(Axis) Tj
+0.076 Tc
+16.774 0 Td
+(Bank) Tj
+0.237 Tc
+16.775 0 Td
+(product) Tj
+0.377 Tc
+26.774 0 Td
+(or) Tj
+0.093 Tc
+9.774 0 Td
+(service,) Tj
+0.118 Tc
+24.774 0 Td
+(please) Tj
+0.579 Tc
+20.774 0 Td
+(do) Tj
+0.156 Tc
+10.775 0 Td
+(not) Tj
+0.32 Tc
+-536 -9 Td
+(respond.) Tj
+0.126 Tc
+29.653 0 Td
+(Send) Tj
+0 Tc
+16.654 0 Td
+(a) Tj
+0.174 Tc
+5.654 0 Td
+(copy) Tj
+0.393 Tc
+16.654 0 Td
+(of) Tj
+-0.092 Tc
+8.654 0 Td
+(the) Tj
+-0.072 Tc
+11.654 0 Td
+(message) Tj
+0.477 Tc
+25.653 0 Td
+(and) Tj
+0.229 Tc
+13.654 0 Td
+(any) Tj
+0.02 Tc
+12.654 0 Td
+(related) Tj
+0.169 Tc
+22.654 0 Td
+(details) Tj
+-0.188 Tc
+21.654 0 Td
+(to) Tj
+0.166 Tc
+8.654 0 Td
+(IT.Helpdesk@axisbank.com.) Tj
+-0.054 Tc
+86.654 0 Td
+(Service) Tj
+-0.228 Tc
+22.653 0 Td
+(fee) Tj
+0.456 Tc
+10.654 0 Td
+(will) Tj
+0.146 Tc
+13.654 0 Td
+(be) Tj
+0.121 Tc
+9.654 0 Td
+(levied) Tj
+0.8 Tc
+19.654 0 Td
+(in) Tj
+-0.027 Tc
+8.654 0 Td
+(case) Tj
+0.393 Tc
+14.653 0 Td
+(of) Tj
+-0.079 Tc
+8.654 0 Td
+(average) Tj
+0.181 Tc
+23.654 0 Td
+(balance) Tj
+0.124 Tc
+24.654 0 Td
+(non-maintenance,) Tj
+0.329 Tc
+54.654 0 Td
+(as) Tj
+0.299 Tc
+8.654 0 Td
+(applicable.) Tj
+-0.323 Tc
+34.654 0 Td
+(Not) Tj
+0.223 Tc
+-535 -9 Td
+(maintaining) Tj
+0.393 Tc
+36.851 0 Td
+(of) Tj
+-0.079 Tc
+8.852 0 Td
+(average) Tj
+0.238 Tc
+23.852 0 Td
+(required) Tj
+0.2 Tc
+28.852 0 Td
+(balances) Tj
+0.456 Tc
+27.852 0 Td
+(will) Tj
+-0.13 Tc
+13.852 0 Td
+(attract) Tj
+0.111 Tc
+20.851 0 Td
+(charges) Tj
+0.329 Tc
+24.852 0 Td
+(as) Tj
+0.19 Tc
+8.852 0 Td
+(per) Tj
+0.439 Tc
+12.852 0 Td
+(our) Tj
+0.121 Tc
+13.852 0 Td
+(current) Tj
+0.071 Tc
+24.852 0 Td
+(charge) Tj
+0.13 Tc
+21.852 0 Td
+(structure.) Tj
+-0.04 Tc
+31.851 0 Td
+(The) Tj
+0.039 Tc
+13.852 0 Td
+(features) Tj
+0.393 Tc
+25.852 0 Td
+(of) Tj
+0.273 Tc
+8.852 0 Td
+(your) Tj
+0.171 Tc
+16.852 0 Td
+(Account) Tj
+0 Tc
+27.852 0 Td
+(&) Tj
+0.223 Tc
+6.852 0 Td
+(its) Tj
+0.071 Tc
+9.851 0 Td
+(charge) Tj
+0.088 Tc
+21.852 0 Td
+(structure) Tj
+-0.05 Tc
+29.852 0 Td
+(are) Tj
+0.192 Tc
+11.852 0 Td
+(available) Tj
+0.643 Tc
+27.852 0 Td
+(on) Tj
+-0.092 Tc
+10.852 0 Td
+(the) Tj
+0.034 Tc
+11.852 0 Td
+(website) Tj
+0.177 Tc
+-524 -9 Td
+(www.axisbank.com.You) Tj
+-0.215 Tc
+73 0 Td
+(may) Tj
+0.118 Tc
+13 0 Td
+(please) Tj
+-0.019 Tc
+20 0 Td
+(contact) Tj
+0.273 Tc
+23 0 Td
+(your) Tj
+0.004 Tc
+16 0 Td
+(nearest) Tj
+0.538 Tc
+23 0 Td
+(Axis) Tj
+0.076 Tc
+16 0 Td
+(Bank) Tj
+0.338 Tc
+16 0 Td
+(branch) Tj
+0.314 Tc
+23 0 Td
+(for) Tj
+0.172 Tc
+11 0 Td
+(further) Tj
+0.157 Tc
+23 0 Td
+(details.For) Tj
+0.146 Tc
+33 0 Td
+(accounts) Tj
+0.8 Tc
+28 0 Td
+(in) Tj
+0.094 Tc
+8 0 Td
+(Salary) Tj
+0.123 Tc
+19 0 Td
+(power) Tj
+-0.068 Tc
+21 0 Td
+(scheme) Tj
+0 Tc
+23 0 Td
+(-) Tj
+0.75 Tc
+4 0 Td
+(In) Tj
+-0.027 Tc
+8 0 Td
+(case) Tj
+0.138 Tc
+14 0 Td
+(monthly) Tj
+0.198 Tc
+26 0 Td
+(salary) Tj
+0.778 Tc
+19 0 Td
+(is) Tj
+0.156 Tc
+7 0 Td
+(not) Tj
+0.068 Tc
+12 0 Td
+(credited) Tj
+0.314 Tc
+26 0 Td
+(for) Tj
+-0.121 Tc
+11 0 Td
+(more) Tj
+0.229 Tc
+17 0 Td
+(than) Tj
+0 Tc
+-533 -9 Td
+(3) Tj
+0.07 Tc
+6.758 0 Td
+(consecutive) Tj
+0.2 Tc
+36.759 0 Td
+(months,) Tj
+-0.092 Tc
+26.758 0 Td
+(the) Tj
+0.118 Tc
+11.759 0 Td
+(account) Tj
+0.456 Tc
+25.759 0 Td
+(will) Tj
+0.146 Tc
+13.758 0 Td
+(be) Tj
+-0.112 Tc
+9.759 0 Td
+(treated) Tj
+0.329 Tc
+22.758 0 Td
+(as) Tj
+0.194 Tc
+8.759 0 Td
+(normal) Tj
+0.174 Tc
+23.759 0 Td
+(Savings) Tj
+0.171 Tc
+23.758 0 Td
+(Account) Tj
+0 Tc
+27.759 0 Td
+(&) Tj
+0.476 Tc
+6.759 0 Td
+(all) Tj
+0.111 Tc
+9.758 0 Td
+(charges) Tj
+0.44 Tc
+24.759 0 Td
+(shall) Tj
+0.146 Tc
+16.758 0 Td
+(be) Tj
+0.121 Tc
+9.759 0 Td
+(levied) Tj
+0.329 Tc
+19.759 0 Td
+(as) Tj
+0.299 Tc
+8.758 0 Td
+(applicable.) Tj
+0.431 Tc
+34.759 0 Td
+(Also,) Tj
+-0.092 Tc
+18.759 0 Td
+(the) Tj
+0.341 Tc
+11.758 0 Td
+(Know) Tj
+0.216 Tc
+20.759 0 Td
+(Your) Tj
+0.022 Tc
+17.758 0 Td
+(Customer) Tj
+0.03 Tc
+31.759 0 Td
+(must) Tj
+0.146 Tc
+16.759 0 Td
+(be) Tj
+0.173 Tc
+9.758 0 Td
+(complied) Tj
+0.2 Tc
+29.759 0 Td
+(with) Tj
+0 Tc
+15.759 0 Td
+(&) Tj
+0.094 Tc
+-542 -9 Td
+(documents) Tj
+-0.05 Tc
+34.099 0 Td
+(are) Tj
+-0.188 Tc
+11.1 0 Td
+(to) Tj
+0.146 Tc
+8.101 0 Td
+(be) Tj
+0.141 Tc
+9.1 0 Td
+(submitted.) Tj
+0.635 Tc
+33.1 0 Td
+(All) Tj
+0.248 Tc
+11.1 0 Td
+(products) Tj
+0.477 Tc
+29.099 0 Td
+(and) Tj
+0.071 Tc
+13.101 0 Td
+(services) Tj
+0.393 Tc
+25.099 0 Td
+(of) Tj
+-0.092 Tc
+8.101 0 Td
+(the) Tj
+0.076 Tc
+11.1 0 Td
+(Bank) Tj
+-0.05 Tc
+16.099 0 Td
+(are) Tj
+0.172 Tc
+11.101 0 Td
+(subject) Tj
+-0.188 Tc
+23.099 0 Td
+(to) Tj
+0.28 Tc
+8.101 0 Td
+(applicable) Tj
+0.225 Tc
+32.1 0 Td
+(law) Tj
+0.477 Tc
+12.1 0 Td
+(and) Tj
+0.197 Tc
+13.099 0 Td
+(regulations) Tj
+0.477 Tc
+35.1 0 Td
+(and) Tj
+0.378 Tc
+13.101 0 Td
+(would) Tj
+0.146 Tc
+21.1 0 Td
+(be) Tj
+0.208 Tc
+9.1 0 Td
+(modified) Tj
+0 Tc
+28.099 0 Td
+(/) Tj
+0.274 Tc
+4.1 0 Td
+(discontinued) Tj
+0.228 Tc
+41.101 0 Td
+(based) Tj
+0.643 Tc
+19.1 0 Td
+(on) Tj
+-0.092 Tc
+10.1 0 Td
+(the) Tj
+0.251 Tc
+11.099 0 Td
+(prevailing) Tj
+0.225 Tc
+31.101 0 Td
+(law) Tj
+0 Tc
+12.1 0 Td
+(/) Tj
+0.184 Tc
+-544 -9 Td
+(regulation) Tj
+-0.313 Tc
+32.09 0 Td
+(at) Tj
+0.229 Tc
+7.091 0 Td
+(any) Tj
+0.319 Tc
+12.091 0 Td
+(point) Tj
+0.393 Tc
+18.091 0 Td
+(of) Tj
+-0.202 Tc
+8.091 0 Td
+(time) Tj
+0.477 Tc
+14.091 0 Td
+(and) Tj
+-0.092 Tc
+13.091 0 Td
+(the) Tj
+0.076 Tc
+11.091 0 Td
+(Bank) Tj
+0.44 Tc
+16.091 0 Td
+(shall) Tj
+0.156 Tc
+16.091 0 Td
+(not) Tj
+0.146 Tc
+12.091 0 Td
+(be) Tj
+0.329 Tc
+9.09 0 Td
+(under) Tj
+0.229 Tc
+20.091 0 Td
+(any) Tj
+0.307 Tc
+12.091 0 Td
+(liability) Tj
+0.377 Tc
+24.091 0 Td
+(or) Tj
+0.265 Tc
+9.091 0 Td
+(obligation) Tj
+0.377 Tc
+32.091 0 Td
+(or) Tj
+0.195 Tc
+9.091 0 Td
+(continue) Tj
+0.2 Tc
+28.091 0 Td
+(with) Tj
+-0.092 Tc
+15.091 0 Td
+(the) Tj
+0.248 Tc
+11.091 0 Td
+(products) Tj
+0.477 Tc
+29.091 0 Td
+(and) Tj
+0.071 Tc
+13.09 0 Td
+(services) Tj
+0.356 Tc
+25.091 0 Td
+(till) Tj
+0.417 Tc
+10.091 0 Td
+(such) Tj
+-0.202 Tc
+16.091 0 Td
+(time) Tj
+-0.092 Tc
+14.091 0 Td
+(the) Tj
+-0.131 Tc
+11.091 0 Td
+(terms) Tj
+-0.05 Tc
+18.091 0 Td
+(are) Tj
+0.208 Tc
+11.091 0 Td
+(modified) Tj
+0.44 Tc
+28.091 0 Td
+(by) Tj
+-0.092 Tc
+9.091 0 Td
+(the) Tj
+0.13 Tc
+11.091 0 Td
+(Parties) Tj
+0.329 Tc
+-526 -9 Td
+(as) Tj
+0.19 Tc
+8.343 0 Td
+(per) Tj
+-0.092 Tc
+12.344 0 Td
+(the) Tj
+0.229 Tc
+11.344 0 Td
+(prevailing/) Tj
+0.049 Tc
+33.344 0 Td
+(amended) Tj
+0.225 Tc
+28.343 0 Td
+(law) Tj
+-0.313 Tc
+12.344 0 Td
+(at) Tj
+-0.048 Tc
+7.344 0 Td
+(that) Tj
+0.319 Tc
+13.344 0 Td
+(point) Tj
+0.393 Tc
+18.343 0 Td
+(of) Tj
+-0.035 Tc
+8.344 0 Td
+(time.) Tj
+0.75 Tc
+16.344 0 Td
+(In) Tj
+-0.092 Tc
+8.344 0 Td
+(the) Tj
+-0.025 Tc
+11.343 0 Td
+(event,) Tj
+-0.048 Tc
+19.344 0 Td
+(that) Tj
+-0.092 Tc
+13.344 0 Td
+(the) Tj
+0.248 Tc
+11.344 0 Td
+(products) Tj
+0.477 Tc
+29.343 0 Td
+(and) Tj
+0.071 Tc
+13.344 0 Td
+(services) Tj
+0.393 Tc
+25.344 0 Td
+(of) Tj
+-0.092 Tc
+8.344 0 Td
+(the) Tj
+0.076 Tc
+11.343 0 Td
+(Bank) Tj
+0.154 Tc
+16.344 0 Td
+(cannot) Tj
+0.146 Tc
+22.344 0 Td
+(be) Tj
+0.225 Tc
+9.344 0 Td
+(continued) Tj
+0.152 Tc
+32.343 0 Td
+(without) Tj
+-0.008 Tc
+25.344 0 Td
+(total) Tj
+0.137 Tc
+15.344 0 Td
+(compliance) Tj
+0.393 Tc
+35.344 0 Td
+(of) Tj
+-0.092 Tc
+8.343 0 Td
+(the) Tj
+0.251 Tc
+11.344 0 Td
+(prevailing) Tj
+0.225 Tc
+31.344 0 Td
+(law) Tj
+-0.313 Tc
+12.344 0 Td
+(at) Tj
+0.229 Tc
+-541 -9 Td
+(any) Tj
+0.319 Tc
+12.566 0 Td
+(point) Tj
+0.393 Tc
+18.567 0 Td
+(of) Tj
+-0.035 Tc
+8.566 0 Td
+(time,) Tj
+-0.092 Tc
+16.567 0 Td
+(the) Tj
+0.248 Tc
+11.567 0 Td
+(products) Tj
+0.477 Tc
+29.567 0 Td
+(and) Tj
+0.071 Tc
+13.566 0 Td
+(services) Tj
+0.393 Tc
+25.567 0 Td
+(of) Tj
+-0.092 Tc
+8.567 0 Td
+(the) Tj
+0.076 Tc
+11.566 0 Td
+(Bank) Tj
+0.44 Tc
+16.567 0 Td
+(shall) Tj
+0.146 Tc
+16.567 0 Td
+(be) Tj
+-0.115 Tc
+9.566 0 Td
+(deemed) Tj
+-0.188 Tc
+24.567 0 Td
+(to) Tj
+0.146 Tc
+8.567 0 Td
+(be) Tj
+-0.011 Tc
+9.566 0 Td
+(terminated) Tj
+0.174 Tc
+33.567 0 Td
+(forthwith) Tj
+0.079 Tc
+30.567 0 Td
+(from) Tj
+-0.092 Tc
+16.566 0 Td
+(the) Tj
+-0.076 Tc
+11.567 0 Td
+(date) Tj
+0.204 Tc
+14.566 0 Td
+(when) Tj
+-0.092 Tc
+18.567 0 Td
+(the) Tj
+0.049 Tc
+11.567 0 Td
+(amended) Tj
+0.225 Tc
+28.567 0 Td
+(law) Tj
+0.115 Tc
+12.566 0 Td
+(restricting) Tj
+0 Tc
+32.567 0 Td
+(/) Tj
+0.346 Tc
+4.566 0 Td
+(prohibiting) Tj
+-0.092 Tc
+36.567 0 Td
+(the) Tj
+0.248 Tc
+11.567 0 Td
+(products) Tj
+0.477 Tc
+29.567 0 Td
+(and) Tj
+0.065 Tc
+-535 -9 Td
+(services of the Bank comes into force.) Tj
+ET
+Q
+q
+26 -309 548 -117 re
+W*
+n
+Q
+q
+0 0 595 -840 re
+W*
+n
+26 -429 335 -18 re
+W*
+n
+26 -429 335 -18 re
+W*
+n
+q
+q
+Q
+Q
+q
+q
+Q
+Q
+q
+q
+Q
+Q
+q
+q
+Q
+Q
+/GS1 gs
+0.2 g
+0.2 G
+BT
+/F3 7 Tf
+0.145 Tc
+26 -436 Td
+(- Never share your password/ PIN/ OTP / Card and account details with anyone in person or on call or digitally.) Tj
+0 Tc
+335 0 Td
+( ) Tj
+0.134 Tc
+-335 -9 Td
+(- Do not click on link from unknown/ unsecured sources that seek your confidential information .) Tj
+ET
+Q
+q
+26 -429 335 -18 re
+W*
+n
+Q
+q
+0 0 595 -840 re
+W*
+n
+26 -449 334 -54 re
+W*
+n
+26 -449 334 -54 re
+W*
+n
+q
+q
+Q
+Q
+q
+q
+Q
+Q
+q
+q
+Q
+Q
+q
+q
+Q
+Q
+/GS1 gs
+0.2 g
+0.2 G
+BT
+/F3 7 Tf
+26 -456 Td
+( ) Tj
+0.122 Tc
+0 -9 TD
+(Please click the link provided for GST details of Axis Bank -) Tj
+0 Tc
+176 0 Td
+( ) Tj
+/GS1 gs
+0 0 1 rg
+0 0 1 RG
+0.149 Tc
+-176 -9 Td
+(http://campaign.axisbank.com/generic/Axis_Bank_GST_Migration_details.pdf) Tj
+ET
+26 -475 m
+253 -475 l
+S
+/GS1 gs
+0.2 g
+0.2 G
+BT
+0 Tc
+253 -474 Td
+( ) Tj
+-227 -9 Td
+( ) Tj
+0.11 Tc
+T*
+(Customers are advised to update PAN details through the following ways in case the same is not already updated) Tj
+0 Tc
+334 0 Td
+( ) Tj
+/F2 7 Tf
+0.041 Tc
+-334 -9 Td
+<B7A0A0A0A0A0A0A0A0A0496E7465726E65742042616E6B696E673A> Tj
+/F3 7 Tf
+0.077 Tc
+78 0 Td
+( Login to Axis Internet Banking> Side Menu Bar> Contact Details> Update PAN) Tj
+ET
+Q
+q
+26 -449 334 -54 re
+W*
+n
+Q
+q
+0 0 595 -840 re
+W*
+n
+26 -505 73 -9 re
+W*
+n
+26 -505 73 -9 re
+W*
+n
+q
+q
+Q
+Q
+q
+q
+Q
+Q
+q
+q
+Q
+Q
+q
+q
+Q
+Q
+/GS1 gs
+0.2 g
+0.2 G
+BT
+/F2 7 Tf
+0.043 Tc
+26 -512 Td
+<B7A0A0A0A0A0A0A0A0A04D6F62696C652042616E6B696E673A> Tj
+ET
+Q
+q
+26 -505 73 -9 re
+W*
+n
+Q
+q
+0 0 595 -840 re
+W*
+n
+26 -516 313 -9 re
+W*
+n
+26 -516 313 -9 re
+W*
+n
+q
+q
+Q
+Q
+q
+q
+Q
+Q
+q
+q
+Q
+Q
+q
+q
+Q
+Q
+/GS1 gs
+0.2 g
+0.2 G
+BT
+/F3 7 Tf
+0.066 Tc
+26 -523 Td
+<A0A0A0A0A0A0A0A0A0A0A0A0A0A0A0A0A0A0A0A0A0A0A0A0A06FA0A0> Tj
+/F2 7 Tf
+-0.138 Tc
+58 0 Td
+(Android:-) Tj
+/F3 7 Tf
+0.095 Tc
+30 0 Td
+( Login to Axis Mobile Banking> Side Menu Bar> Insta Services> Update PAN) Tj
+ET
+Q
+q
+26 -516 313 -9 re
+W*
+n
+Q
+q
+0 0 595 -840 re
+W*
+n
+26 -527 355 -9 re
+W*
+n
+26 -527 355 -9 re
+W*
+n
+q
+q
+Q
+Q
+q
+q
+Q
+Q
+q
+q
+Q
+Q
+q
+q
+Q
+Q
+/GS1 gs
+0.2 g
+0.2 G
+BT
+/F3 7 Tf
+0.066 Tc
+26 -534 Td
+<A0A0A0A0A0A0A0A0A0A0A0A0A0A0A0A0A0A0A0A0A0A0A0A0A06FA0A0> Tj
+/F2 7 Tf
+-0.08 Tc
+58 0 Td
+(iOS:- ) Tj
+/F3 7 Tf
+0.074 Tc
+18 0 Td
+(Login to Axis Mobile Banking> Side Menu Bar> Manage> Request> Insta Services> Update PAN) Tj
+ET
+Q
+q
+26 -527 355 -9 re
+W*
+n
+Q
+q
+0 0 595 -840 re
+W*
+n
+26 -538 394 -9 re
+W*
+n
+26 -538 394 -9 re
+W*
+n
+q
+q
+Q
+Q
+q
+q
+Q
+Q
+q
+q
+Q
+Q
+q
+q
+Q
+Q
+/GS1 gs
+0.2 g
+0.2 G
+BT
+/F2 7 Tf
+0.055 Tc
+26 -545 Td
+<A0A0A0A0A0A0A0A0A0A0A0A0A0A0A0A0A0A0A070686F6E652042616E6B696E673A> Tj
+/F3 7 Tf
+0.188 Tc
+89 0 Td
+( Contact us on our customer care number 1860 419 5555, 1860 500 5555 to update the PAN details) Tj
+ET
+Q
+q
+26 -538 394 -9 re
+W*
+n
+Q
+q
+0 0 595 -840 re
+W*
+n
+26 -549 551 -63 re
+W*
+n
+26 -549 551 -63 re
+W*
+n
+q
+q
+Q
+Q
+q
+q
+Q
+Q
+q
+q
+Q
+Q
+q
+q
+Q
+Q
+/GS1 gs
+0.2 g
+0.2 G
+BT
+/F3 7 Tf
+26 -556 Td
+( ) Tj
+0.149 Tc
+0 -9 TD
+(Deposit Insurance and Credit Guarantee Corporation \(DICGC\) insurance cover is applicable in all Banks) Tj
+/F5 7 Tf
+<07> Tj
+/F3 7 Tf
+( deposits, such as savings, current, fixed, recurring etc* up to maximum ) Tj
+0.164 Tc
+T*
+(amount of Rs 5 Lakh including principal & interest both*.) Tj
+0 Tc
+170 0 Td
+( ) Tj
+0.11 Tc
+-170 -9 Td
+(\(* or exceptions and details please refer ) Tj
+/GS1 gs
+0 0 1 rg
+0 0 1 RG
+0.191 Tc
+120 0 Td
+(http://www.dicgc.org.in/) Tj
+ET
+146 -584 m
+218 -584 l
+S
+/GS1 gs
+0.2 g
+0.2 G
+BT
+0.206 Tc
+218 -583 Td
+(\).) Tj
+0 Tc
+4 0 Td
+( ) Tj
+-196 -9 Td
+( ) Tj
+0.113 Tc
+T*
+(In compliance with regulatory guidelines, the non-CTS cheque books attached to the accounts would be destroyed in banks core banking System. Thus, Non CTS cheques will not be ) Tj
+0.168 Tc
+T*
+(valid for CASH, Clearing and Transfer transactions.) Tj
+ET
+Q
+q
+26 -549 551 -63 re
+W*
+n
+Q
+q
+0 0 595 -840 re
+W*
+n
+26 -623 551 -18 re
+W*
+n
+26 -623 551 -18 re
+W*
+n
+q
+q
+Q
+Q
+q
+q
+Q
+Q
+q
+q
+Q
+Q
+q
+q
+Q
+Q
+/GS1 gs
+0.2 g
+0.2 G
+BT
+/F3 7 Tf
+0.096 Tc
+26 -630 Td
+(Branch Address- SHAKTI NAGAR, DELHI [DL], GROUND FLOOR, FIRST FLOOR, SECOND FLOOR,, THIRD FLOOR, HOUSE NO.7333,7334,7340,PLOT, DELHI, DELHI- 110007, ) Tj
+0.245 Tc
+0 -9 TD
+(Telephone number- 011-23843440, Fax number- 23841446) Tj
+ET
+Q
+q
+26 -623 551 -18 re
+W*
+n
+Q
+q
+0 0 595 -840 re
+W*
+n
+5 -809 547 -32 re
+W*
+n
+5 -809 547 -34 re
+W*
+n
+q
+q
+Q
+Q
+q
+q
+Q
+Q
+q
+q
+Q
+Q
+q
+q
+Q
+Q
+q
+q
+Q
+Q
+/GS1 gs
+0.2 g
+0.2 G
+BT
+/F3 8 Tf
+-0.003 Tc
+153 -817 Td
+(Registered Office: "Trishul" - 3rd Floor, Opp. Samartheshwar Temple, Near Law Garden, Ellisbridge, Ahmedabad - 380006.) Tj
+ET
+q
+q
+Q
+Q
+q
+q
+Q
+Q
+BT
+0.008 Tc
+167 -827 Td
+(Telephone No. 079-26409322 Fax No. - 079-26409321 CIN: L65110GJ1993PLC020769 Website - www.axisbank.com) Tj
+ET
+q
+q
+Q
+Q
+q
+q
+Q
+Q
+BT
+-0.014 Tc
+324 -837 Td
+(Call Customer Care at 1800 209 5577, 1800 103 5577 for any queries\240) Tj
+ET
+Q
+q
+5 -809 547 -31 re
+W*
+n
+Q
+q
+0 0 595 -840 re
+W*
+n
+Q
+Q
+Q
+Q
