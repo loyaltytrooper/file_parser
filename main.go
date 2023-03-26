@@ -15,11 +15,12 @@ import (
 )
 
 func main() {
-	str, err := readPdf("feb.pdf")
-	if err != nil {
-		fmt.Println(err)
-	}
-	fmt.Println(str)
+	ParsePDF("feb.pdf")
+	//str, err := readPdf("feb.pdf")
+	//if err != nil {
+	//	fmt.Println(err)
+	//}
+	//fmt.Println(str)
 }
 
 func readPdf(path string) (string, error) {
@@ -142,6 +143,20 @@ func ParsePDF(fileName string) {
 	if err != nil {
 		fmt.Println(err.Error())
 	}
+	file, err := os.Open("act_" + fileName[0:len(fileName)-4])
+	files, err := file.ReadDir(0)
+
+	openingBalanceFound := false
+	var transactions models.Transactions
+
+	fmt.Println(len(files))
+	fmt.Println("*******")
+
+	for _, f := range files {
+		if !f.IsDir() {
+			readFile("act_"+fileName[0:len(fileName)-4]+"/"+f.Name(), &openingBalanceFound, &transactions)
+		}
+	}
 }
 
 func readFile(file string, openingBalanceFound *bool, transactions *models.Transactions) (closingFound bool) {
@@ -155,10 +170,13 @@ func readFile(file string, openingBalanceFound *bool, transactions *models.Trans
 
 	scanner := bufio.NewScanner(f)
 	for scanner.Scan() {
-		fmt.Println(scanner.Text())
+		if scanner.Text()[len(scanner.Text())-1] == 'j' {
+			fmt.Println(scanner.Text())
+		}
 	}
-
 	if err := scanner.Err(); err != nil {
 		log.Fatal(err)
 	}
+
+	return
 }
