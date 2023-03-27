@@ -2,6 +2,7 @@ package main
 
 import (
 	"bufio"
+	"file_parser/helper"
 	"file_parser/models"
 	"fmt"
 	"github.com/ledongthuc/pdf"
@@ -9,21 +10,19 @@ import (
 	"github.com/pdfcpu/pdfcpu/pkg/pdfcpu/model"
 	"log"
 	"os"
-	"strconv"
-	"strings"
 	"time"
 )
 
 func main() {
 	ParsePDF("feb.pdf")
-	//str, err := readPdf("feb.pdf")
+	//str, err := ReadPdf("feb.pdf")
 	//if err != nil {
 	//	fmt.Println(err)
 	//}
 	//fmt.Println(str)
 }
 
-func readPdf(path string) (string, error) {
+func ReadPdf(path string) (string, error) {
 	//reachedStartPoint := false
 	f, r, err := pdf.Open(path)
 	defer func() {
@@ -57,12 +56,12 @@ func readPdf(path string) (string, error) {
 				//}
 				continue
 			} else {
-				currentBalance, err = BeautifyCommaNumber(row.Content[row.Content.Len()-1].S)
+				currentBalance, err = helper.SimplifyCommaNumber(row.Content[row.Content.Len()-1].S)
 				if err != nil {
 					fmt.Println(err)
 				} else {
 					if row.Content.Len() == 3 {
-						txnAmount, err := BeautifyCommaNumber(row.Content[row.Content.Len()-2].S)
+						txnAmount, err := helper.SimplifyCommaNumber(row.Content[row.Content.Len()-2].S)
 						if err != nil {
 							//prevDescriptionY = row.Content[row.Content.Len()-2].Y
 							//prevDescriptionX = row.Content[row.Content.Len()-2].X
@@ -91,7 +90,7 @@ func readPdf(path string) (string, error) {
 							})
 						}
 					} else if row.Content.Len() == 4 {
-						txnAmount, err := BeautifyCommaNumber(row.Content[row.Content.Len()-2].S)
+						txnAmount, err := helper.SimplifyCommaNumber(row.Content[row.Content.Len()-2].S)
 						if err != nil {
 							fmt.Println(err)
 						} else if prevBalance < currentBalance {
@@ -128,15 +127,6 @@ func readPdf(path string) (string, error) {
 	return "", nil
 }
 
-func BeautifyCommaNumber(str string) (float64, error) {
-	txnArr := strings.Split(str, ",")
-	txn := ""
-	for _, str := range txnArr {
-		txn += str
-	}
-	return strconv.ParseFloat(txn, 64)
-}
-
 func ParsePDF(fileName string) {
 	os.Mkdir("act_"+fileName[0:len(fileName)-4], 0777)
 	err := api.ExtractContentFile(fileName, "act_"+fileName[0:len(fileName)-4], nil, model.NewAESConfiguration("RAJA2712", "RAJA2712", 128))
@@ -146,32 +136,146 @@ func ParsePDF(fileName string) {
 	file, err := os.Open("act_" + fileName[0:len(fileName)-4])
 	files, err := file.ReadDir(0)
 
-	openingBalanceFound := false
 	var transactions models.Transactions
-
-	fmt.Println(len(files))
-	fmt.Println("*******")
 
 	for _, f := range files {
 		if !f.IsDir() {
-			readFile("act_"+fileName[0:len(fileName)-4]+"/"+f.Name(), &openingBalanceFound, &transactions)
+			ReadFile("act_"+fileName[0:len(fileName)-4]+"/"+f.Name(), &transactions)
 		}
 	}
 }
 
-func readFile(file string, openingBalanceFound *bool, transactions *models.Transactions) (closingFound bool) {
+func ReadFile(file string, transactions *models.Transactions) (closingFound bool) {
 	f, err := os.Open(file)
-
 	if err != nil {
 		log.Fatal(err)
 	}
+	defer func(f *os.File) {
+		err := f.Close()
+		if err != nil {
+			fmt.Println("Error closing file")
+		}
+	}(f)
 
-	defer f.Close()
+	// in case of words that ended with j and had length less than 5 or 6
+	defer func() {
+		if err := recover(); err != nil {
+			fmt.Println("Panic occurred")
+		}
+	}()
 
+	//var txn models.Transaction
+	var tempData []string
+	foundTable := false
+	var prevBalance float64
+
+	// reading from the file line by line
 	scanner := bufio.NewScanner(f)
 	for scanner.Scan() {
 		if scanner.Text()[len(scanner.Text())-1] == 'j' {
-			fmt.Println(scanner.Text())
+			word := scanner.Text()[1 : len(scanner.Text())-4]
+
+			if word == "Opening Balance" {
+				scanner.Scan()
+				tempBalance, err := helper.SimplifyCommaNumber(scanner.Text()[1 : len(scanner.Text())-4])
+				if err == nil {
+					prevBalance = tempBalance
+				}
+				continue
+			}
+
+			txnTime, err := time.Parse("02-01-2006", word)
+			if err != nil {
+				if foundTable == true {
+					tempData = append(tempData, word)
+				}
+			} else {
+				fmt.Println(tempData)
+				if len(tempData) > 0 {
+					difference, err := helper.SimplifyCommaNumber(tempData[len(tempData)-2])
+					if err != nil {
+						tempData = nil
+					} else {
+						balance, err := helper.SimplifyCommaNumber(tempData[len(tempData)-1])
+						if err != nil {
+							tempData = nil
+						} else {
+							if balance > prevBalance {
+								transactions.Txns = append(transactions.Txns, models.Transaction{
+									Date:            txnTime,
+									Description:     helper.GetDescription(tempData),
+									ChequeReference: "",
+									Credit:          difference,
+									Debit:           0,
+									FinalAmount:     balance,
+								})
+							} else if balance < prevBalance {
+								transactions.Txns = append(transactions.Txns, models.Transaction{
+									Date:            txnTime,
+									Description:     helper.GetDescription(tempData),
+									ChequeReference: "",
+									Credit:          0,
+									Debit:           difference,
+									FinalAmount:     balance,
+								})
+							}
+						}
+					}
+				}
+				tempData = nil
+				foundTable = true
+				tempData = append(tempData, word)
+			}
+
+			if len(tempData) == 4 {
+				foundTable = false
+				txnTime, err := time.Parse("02-01-2006", tempData[0])
+				if err == nil {
+					_, err1 := helper.SimplifyCommaNumber(tempData[len(tempData)-2])
+					_, err2 := helper.SimplifyCommaNumber(tempData[len(tempData)-1])
+
+					if err1 == nil && err2 == nil {
+					} else if err1 == nil && err2 != nil {
+						scanner.Scan()
+						tempData = append(tempData, scanner.Text()[1:len(scanner.Text())-4])
+					} else if err1 != nil && err2 != nil {
+						scanner.Scan()
+						tempData = append(tempData, scanner.Text()[1:len(scanner.Text())-4])
+						scanner.Scan()
+						tempData = append(tempData, scanner.Text()[1:len(scanner.Text())-4])
+					} else {
+						tempData = nil
+					}
+					if len(tempData) >= 4 {
+						difference, err1 := helper.SimplifyCommaNumber(tempData[len(tempData)-2])
+						balance, err2 := helper.SimplifyCommaNumber(tempData[len(tempData)-1])
+
+						if err1 == nil && err2 == nil {
+							if balance > prevBalance {
+								transactions.Txns = append(transactions.Txns, models.Transaction{
+									Date:            txnTime,
+									Description:     helper.GetDescription(tempData),
+									ChequeReference: "",
+									Credit:          difference,
+									Debit:           0,
+									FinalAmount:     balance,
+								})
+							} else if balance < prevBalance {
+								transactions.Txns = append(transactions.Txns, models.Transaction{
+									Date:            txnTime,
+									Description:     helper.GetDescription(tempData),
+									ChequeReference: "",
+									Credit:          0,
+									Debit:           difference,
+									FinalAmount:     balance,
+								})
+							}
+						}
+					}
+				} else {
+					tempData = nil
+				}
+			}
 		}
 	}
 	if err := scanner.Err(); err != nil {
