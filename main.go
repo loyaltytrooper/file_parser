@@ -10,6 +10,8 @@ import (
 	"github.com/pdfcpu/pdfcpu/pkg/pdfcpu/model"
 	"log"
 	"os"
+	"strconv"
+	"strings"
 	"time"
 )
 
@@ -143,6 +145,7 @@ func ParsePDF(fileName string) {
 			ReadFile("act_"+fileName[0:len(fileName)-4]+"/"+f.Name(), &transactions)
 		}
 	}
+	fmt.Println(transactions.Txns)
 }
 
 func ReadFile(file string, transactions *models.Transactions) (closingFound bool) {
@@ -174,12 +177,20 @@ func ReadFile(file string, transactions *models.Transactions) (closingFound bool
 	for scanner.Scan() {
 		if scanner.Text()[len(scanner.Text())-1] == 'j' {
 			word := scanner.Text()[1 : len(scanner.Text())-4]
-
-			if word == "Opening Balance" {
-				scanner.Scan()
-				tempBalance, err := helper.SimplifyCommaNumber(scanner.Text()[1 : len(scanner.Text())-4])
-				if err == nil {
-					prevBalance = tempBalance
+			if strings.Compare(word, "Opening Balance") == 0 {
+				for scanner.Scan() {
+					if scanner.Text()[len(scanner.Text())-1] != 'j' {
+						continue
+					} else {
+						tempBalance, err := strconv.ParseFloat(scanner.Text()[1:len(scanner.Text())-4], 64)
+						if err == nil {
+							prevBalance = tempBalance
+							fmt.Println(prevBalance)
+						} else {
+							panic(err)
+						}
+						break
+					}
 				}
 				continue
 			}
@@ -189,9 +200,10 @@ func ReadFile(file string, transactions *models.Transactions) (closingFound bool
 				if foundTable == true {
 					tempData = append(tempData, word)
 				}
+				continue
 			} else {
-				fmt.Println(tempData)
-				if len(tempData) > 0 {
+				if len(tempData) >= 4 {
+					fmt.Println(tempData)
 					difference, err := helper.SimplifyCommaNumber(tempData[len(tempData)-2])
 					if err != nil {
 						tempData = nil
@@ -225,56 +237,7 @@ func ReadFile(file string, transactions *models.Transactions) (closingFound bool
 				tempData = nil
 				foundTable = true
 				tempData = append(tempData, word)
-			}
-
-			if len(tempData) == 4 {
-				foundTable = false
-				txnTime, err := time.Parse("02-01-2006", tempData[0])
-				if err == nil {
-					_, err1 := helper.SimplifyCommaNumber(tempData[len(tempData)-2])
-					_, err2 := helper.SimplifyCommaNumber(tempData[len(tempData)-1])
-
-					if err1 == nil && err2 == nil {
-					} else if err1 == nil && err2 != nil {
-						scanner.Scan()
-						tempData = append(tempData, scanner.Text()[1:len(scanner.Text())-4])
-					} else if err1 != nil && err2 != nil {
-						scanner.Scan()
-						tempData = append(tempData, scanner.Text()[1:len(scanner.Text())-4])
-						scanner.Scan()
-						tempData = append(tempData, scanner.Text()[1:len(scanner.Text())-4])
-					} else {
-						tempData = nil
-					}
-					if len(tempData) >= 4 {
-						difference, err1 := helper.SimplifyCommaNumber(tempData[len(tempData)-2])
-						balance, err2 := helper.SimplifyCommaNumber(tempData[len(tempData)-1])
-
-						if err1 == nil && err2 == nil {
-							if balance > prevBalance {
-								transactions.Txns = append(transactions.Txns, models.Transaction{
-									Date:            txnTime,
-									Description:     helper.GetDescription(tempData),
-									ChequeReference: "",
-									Credit:          difference,
-									Debit:           0,
-									FinalAmount:     balance,
-								})
-							} else if balance < prevBalance {
-								transactions.Txns = append(transactions.Txns, models.Transaction{
-									Date:            txnTime,
-									Description:     helper.GetDescription(tempData),
-									ChequeReference: "",
-									Credit:          0,
-									Debit:           difference,
-									FinalAmount:     balance,
-								})
-							}
-						}
-					}
-				} else {
-					tempData = nil
-				}
+				continue
 			}
 		}
 	}
