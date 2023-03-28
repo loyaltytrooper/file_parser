@@ -195,6 +195,44 @@ func ReadFile(file string, transactions *models.Transactions) (closingFound bool
 				continue
 			}
 
+			if strings.Compare(word, "Closing Balance") == 0 && foundTable == true {
+				foundTable = false
+				txnTime, err := time.Parse("02-01-2006", tempData[0])
+				if len(tempData) >= 4 && err == nil {
+					difference, err := helper.SimplifyCommaNumber(tempData[len(tempData)-2])
+					if err != nil {
+						tempData = nil
+					} else {
+						balance, err := helper.SimplifyCommaNumber(tempData[len(tempData)-1])
+						if err != nil {
+							tempData = nil
+						} else {
+							if balance > prevBalance {
+								transactions.Txns = append(transactions.Txns, models.Transaction{
+									Date:            txnTime,
+									Description:     helper.GetDescription(tempData),
+									ChequeReference: "",
+									Credit:          difference,
+									Debit:           0,
+									FinalAmount:     balance,
+								})
+							} else if balance < prevBalance {
+								transactions.Txns = append(transactions.Txns, models.Transaction{
+									Date:            txnTime,
+									Description:     helper.GetDescription(tempData),
+									ChequeReference: "",
+									Credit:          0,
+									Debit:           difference,
+									FinalAmount:     balance,
+								})
+							}
+							prevBalance = balance
+						}
+					}
+				}
+				tempData = nil
+			}
+
 			txnTime, err := time.Parse("02-01-2006", word)
 			if err != nil && foundTable == true {
 				tempData = append(tempData, word)
@@ -229,6 +267,7 @@ func ReadFile(file string, transactions *models.Transactions) (closingFound bool
 									FinalAmount:     balance,
 								})
 							}
+							prevBalance = balance
 						}
 					}
 				}
@@ -236,56 +275,6 @@ func ReadFile(file string, transactions *models.Transactions) (closingFound bool
 				foundTable = true
 				tempData = append(tempData, word)
 				continue
-			}
-
-			if len(tempData) == 4 {
-				foundTable = false
-				txnTime, err := time.Parse("02-01-2006", tempData[0])
-				if err == nil {
-					_, err1 := helper.SimplifyCommaNumber(tempData[len(tempData)-2])
-					_, err2 := helper.SimplifyCommaNumber(tempData[len(tempData)-1])
-
-					if err1 == nil && err2 == nil {
-					} else if err1 == nil && err2 != nil {
-						scanner.Scan()
-						tempData = append(tempData, scanner.Text()[1:len(scanner.Text())-4])
-					} else if err1 != nil && err2 != nil {
-						scanner.Scan()
-						tempData = append(tempData, scanner.Text()[1:len(scanner.Text())-4])
-						scanner.Scan()
-						tempData = append(tempData, scanner.Text()[1:len(scanner.Text())-4])
-					} else {
-						tempData = nil
-					}
-					if len(tempData) >= 4 {
-						difference, err1 := helper.SimplifyCommaNumber(tempData[len(tempData)-2])
-						balance, err2 := helper.SimplifyCommaNumber(tempData[len(tempData)-1])
-
-						if err1 == nil && err2 == nil {
-							if balance > prevBalance {
-								transactions.Txns = append(transactions.Txns, models.Transaction{
-									Date:            txnTime,
-									Description:     helper.GetDescription(tempData),
-									ChequeReference: "",
-									Credit:          difference,
-									Debit:           0,
-									FinalAmount:     balance,
-								})
-							} else if balance < prevBalance {
-								transactions.Txns = append(transactions.Txns, models.Transaction{
-									Date:            txnTime,
-									Description:     helper.GetDescription(tempData),
-									ChequeReference: "",
-									Credit:          0,
-									Debit:           difference,
-									FinalAmount:     balance,
-								})
-							}
-						}
-					}
-				} else {
-					tempData = nil
-				}
 			}
 		}
 	}
